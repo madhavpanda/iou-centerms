@@ -1,0 +1,14 @@
+[01-May-2011 13:54:26] PHP Fatal error:  Call to undefined function  mysql_start() in /home/eomanico/public_html/ecampus/center/centerconn.php on line 13
+[01-May-2011 13:54:26] PHP Fatal error:  Call to undefined function  mysql_start() in /home/eomanico/public_html/ecampus/center/centerconn.php on line 13
+[01-May-2011 13:55:28] PHP Parse error:  syntax error, unexpected T_STRING in /home/eomanico/public_html/ecampus/center/centerconn.php on line 14
+[02-May-2011 13:31:30] PHP Parse error:  syntax error, unexpected $end in /home/eomanico/public_html/ecampus/center/examreg.php on line 97
+[02-May-2011 13:31:36] PHP Parse error:  syntax error, unexpected $end in /home/eomanico/public_html/ecampus/center/examreg.php on line 97
+[02-May-2011 14:46:07] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/eomanico/public_html/ecampus/center/centerlist.php on line 85
+[03-May-2011 08:12:34] PHP Parse error:  syntax error, unexpected ']' in /home/eomanico/public_html/ecampus/center/centrereq.php on line 21
+[03-May-2011 08:19:59] PHP Parse error:  syntax error, unexpected ']' in /home/eomanico/public_html/ecampus/center/centrereq.php on line 21
+[03-May-2011 08:21:40] PHP Parse error:  syntax error, unexpected ']' in /home/eomanico/public_html/ecampus/center/centrereq.php on line 21
+[04-May-2011 07:36:19] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/stdreqview.php on line 141
+[04-May-2011 07:36:29] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/stdreqview.php on line 141
+[05-May-2011 06:40:00] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 2
+[05-May-2011 06:40:00] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 2
+[05-May-2011 06:40:04] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 2
