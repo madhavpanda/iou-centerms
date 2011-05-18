@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+/*
+
+*/
+body {
+	background : #ffffff;
+	margin : 0;
+	padding : 0;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+
+#login_form{
+
+/* possible background colors #5378CE #2B72FA #2C6CF9 */
+background: #0179C4;
+ 
+
+width : 300px;
+color : #FFFFFF;
+border : 1px solid white;
+margin : 250px auto 0;
+padding : 1em;
+-moz-border-radius : 3px;
+-webkit-border-radius : 3px;
+}
+
+h1, h2, h3, h4, h5{
+	margin-top : 0;
+	font-family : "Arial Black";, arial;
+	text-align : center;
+}
+
+
+input[type=text], input[type=password]{
+	display: block;
+	margin: 0 0 1em 0;
+	width: 270px;
+	-moz-border-radius : 1px
+	-webkit-border-radius : 1px;
+	padding: 1em;
+}
+
+input[type=submit]{
+	border: none;
+	margin-right: 1em; 
+	padding : 6px;
+	text-decoration: none; 
+	font-size: 19px;
+	-moz-border-radius : 4px
+	-webkit-border-radius : 4px;
+	color : black;
+	box-shadow: 0 1px 0 white;
+	-moz-box-showdow : 0 1px 0 white;
+	-webkit-box-shadow: 0 1px 0 white;
+	-webkit-border-radius : 1px;  
+}
+
+input[type=submit]:hover{
+	/*background: #5378CE;*/
+	background: #8F0222; /* Old browsers */
+	cursor: pointer;
+	color: white;
+	
+}
+
+.error{
+	color: #ff0000;
+	font-size: 15px;
+}
+
+fieldset{
+	width: 300px;
+	margin : auto;
+	margin-bottom : 2em;
+	display: block;
+}
+
+h1{
+	text-shadow: 0 1px 0 white;
+}	
+	
+#tutinfo{
+	background: #e3e3e3;
+	border: 1px solid white;
+	position: absolute;
+	bottom : 0;
+	width: 100%;
+	padding: .7em .7em .7em 2em;
+}

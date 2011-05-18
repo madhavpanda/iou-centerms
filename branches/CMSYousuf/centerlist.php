@@ -158,6 +158,6 @@ while($record=mysql_fetch_array($getres)){
  </table> 
  <table width= "100%" border="0">
 <tr  width= "100%" bgcolor="#000000" class="td_data">
-	<td width= "100%" align= "center"><span><strong>If You have found no available centers or no suitable centers please suggest a likely center you would like to take your exams <a href="http://www.eomani.com/ecampus/center/centersuggest.php"> here</a></strong></span></td
+	<td width= "100%" align= "center"><span><strong>If You have found no available centers or no suitable centers please suggest a likely center you would like to take your exams <a href="http://www.eomani.com/ecampus/center/centersuggest.php"> here</a></strong></span></td>
  </table>
   
