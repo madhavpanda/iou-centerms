@@ -121,7 +121,7 @@ $result=mysql_query($query);
 	<td><?php print $centername ?></td> 
     <td><?php print $city ?></td>
     <td><?php print $country ?></td>
-    <td> <form id="reg" method="POST" action="centerconmail.php?mail=<?php echo $record['Email']; ?>&&fname=<?php echo $record['FirstName']; ?>">
+    <td> <form id="reg" method="post"  action="centerconmail.php?mail=<?php echo $record['Email']; ?>&&fname=<?php echo $record['FirstName']; ?>">
 	<input type="submit" name="enroll" value="Notify" />
     </form>
      </td>
