@@ -1,0 +1,194 @@
+<? #session_start();
+  
+  require_once('/var/www/bais.islamiconlineuniversity.com/bais/config.php');
+   //require_once('/home/eomanico/public_html/ecampus/config.php');
+   require_once($CFG->dirroot .'/course/lib.php');
+   require_once($CFG->dirroot .'/lib/blocklib.php');
+   
+
+
+   //unset($_SESSION['sch_page_name']);
+    include( "centerconn.php" );
+	include( "php_lib3/misc.php" );
+   include( "php_lib3/mysql.php" );
+   
+   $mysql_connect_id = mysql_start( $mysql_server, $center_db, $mysql_username, $mysql_password );
+  if ( $USER->id ) { 
+   ?>
+<link rel="shortcut icon" href="http://bais.islamiconlineuniversity.com/bais/theme/ingenuous/favicon.ico" />
+<link rel="stylesheet" href="CenterCMS.css" />
+<style type="text/css">
+<!--
+body {
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: normal;
+}
+table {
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: normal;
+}
+.verdana_10px {
+	font-family: Verdana;
+	font-size: 11px;
+	line-height: normal;
+}
+.td_data td {
+	padding: 4px
+}
+.td_data td span {
+	color:#FFFFFF;
+	text-decoration:none;
+	cursor:pointer;}
+.arial_10pt {
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: normal;
+}
+.verdana_10px {
+	font-family: Verdana;
+	font-size: 10px;
+}
+.tahoma_10pt {
+	font-family: Tahoma;
+	font-size: 10pt;
+}
+a:link { 
+        color:#FFF;
+	text-decoration: none;
+}
+a:visited { 
+        color:#FFF;
+	text-decoration: none;
+}
+a:hover { 
+        color:#FFF;
+	text-decoration: underline;
+}
+a:active { 
+        color:#FFF;
+	text-decoration: none;
+}
+-->
+</style>
+<title>Islamic Online University Exam Centers Registration</title>
+<table width= "100%" border="0">
+<tr  width= "100%" class="menu">
+	<td width= "100%" align= "center"><span><strong>Lists of Exam Centers in your Country</strong></span></td>
+      
+</tr>
+</table>
+<table>
+<tr class="menu">
+     <td width="8%" bgcolor="#FFFFFF">&nbsp;</td>
+     <td width="11%"><span><strong>Country</strong></span></td>
+    <td  width="9%" style="color:#FFFFFF"><strong>City</strong></td>
+    <td  width="12%"><span><strong>Center Name</strong></span></td>
+    <td  width="20%"><span><strong>Address and Phone No</strong></span></td>
+    <td  width="12%"><span><strong>Center email	</strong></span></td>
+    
+    <td  width="12%"><span><strong>Web Adress</strong></span></td>
+     <td  width="8%"><span><strong>Available</strong></span></td>
+    <td  width="10%"><span><strong>Register/choose</strong></span></td>
+    <td width="8%" bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>	
+<?php
+//if ( $USER->id ) {
+	 //include( "cfg.php" );
+  // include( "php_lib3/misc.php" );
+  // include( "php_lib3/mysql.php" );
+ //  @include( "../lang/en_utf8/countries.php" );
+   
+  if (isset ($_POST['country'])) {
+  $country_id=$_POST['country'];
+  //echo $country_id;
+   
+$getcenter= "Select * from ExamCenters where CountryId =$country_id and Active =1 ";
+//echo $getcenter;
+$getres = mysql_query($getcenter);
+while($record=mysql_fetch_array($getres)){
+	$countryid=$record['CountryId'];
+	//echo $countryid;
+	$countryqry= "Select * from Countries where CountryId=$countryid";
+	//echo $countryqry;
+	$getcountry=mysql_query($countryqry);
+	$countryrec=mysql_fetch_array($getcountry);
+		$country=$countryrec['CountryName'];
+	
+	$city=$record['CityName'];
+ $active=$record['Active'];
+ $centername=$record['CenterName'];
+  $address=$record['Address1'];
+ //echo $centername;
+ $centeremail=$record['Email'];
+// echo $centeremail;
+ $centerphone=$record['PrimaryPhone'];
+// echo $centerphone;
+ $centerweb=$record['Website'];
+ //echo $centerweb;
+ $capacity=$record['Capacity'];
+// echo $capacity
+ //$register=$record['register']
+//echo $bg_color; 
+$activated = $record['Activated'];
+?>
+ <tr bgcolor="#C9C9C9" >
+     
+    <td bgcolor="#FFFFFF">&nbsp;  </td>
+    <td> <?php echo $country;  ?> </td>
+    <td> <?php print $city ?> </td> 
+    <td> <?php print $centername ?> </td>
+    <td> <?php print "Address: ".$address.'<br>'."Phone: ".$centerphone ?> </td>
+    <td> <?php print $centeremail ?> </td>
+    
+    <td> <?php print $centerweb ?> </td>
+    <td style="text-align: center;"> <?php echo $activated == 1? 'Yes' : 'No'; ?></td>
+     <td> <form id="reg" method="POST" action="centrereq.php?cname=<?php echo $centername; ?>&&ctry=<?php echo $country; ?>&&cty=<?php echo $city; ?>">
+	<!--<input type="submit" name="enroll" value="Choose" />-->
+     <?php 
+     if ($activated == 1)
+     {
+     	echo '<input type="submit" name="enroll" value="Choose" />';
+     }
+     else
+     {
+     	echo '<input type="submit" name="enroll" value="Choose" disabled="disabled" />';
+     }
+     ?>
+    </form></td>
+    
+    <td bgcolor="#FFFFFF">&nbsp; </td>
+    </tr>
+
+
+ 
+<? 
+}   
+
+
+
+  
+
+}
+?>
+</table>
+<br />
+<br />
+<table width= "100%" border="0">
+<tr  width= "100%"  class="menu">
+	<td width= "100%" align= "center"><span><strong>If You have found no available centers or no suitable centers please suggest a likely center you would like to take your exams<strong><big> <a href="centersuggest.php"> here</a></big></strong></span></td
+ ></table>
+<?
+  }
+
+
+
+
+
+
+ else {
+ header("location: loginerror.php");
+ //exit;
+             
+   }

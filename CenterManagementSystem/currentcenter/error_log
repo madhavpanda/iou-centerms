@@ -1,0 +1,58 @@
+[01-May-2011 13:54:26] PHP Fatal error:  Call to undefined function  mysql_start() in /home/eomanico/public_html/ecampus/center/centerconn.php on line 13
+[01-May-2011 13:54:26] PHP Fatal error:  Call to undefined function  mysql_start() in /home/eomanico/public_html/ecampus/center/centerconn.php on line 13
+[01-May-2011 13:55:28] PHP Parse error:  syntax error, unexpected T_STRING in /home/eomanico/public_html/ecampus/center/centerconn.php on line 14
+[02-May-2011 13:31:30] PHP Parse error:  syntax error, unexpected $end in /home/eomanico/public_html/ecampus/center/examreg.php on line 97
+[02-May-2011 13:31:36] PHP Parse error:  syntax error, unexpected $end in /home/eomanico/public_html/ecampus/center/examreg.php on line 97
+[02-May-2011 14:46:07] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/eomanico/public_html/ecampus/center/centerlist.php on line 85
+[03-May-2011 08:12:34] PHP Parse error:  syntax error, unexpected ']' in /home/eomanico/public_html/ecampus/center/centrereq.php on line 21
+[03-May-2011 08:19:59] PHP Parse error:  syntax error, unexpected ']' in /home/eomanico/public_html/ecampus/center/centrereq.php on line 21
+[03-May-2011 08:21:40] PHP Parse error:  syntax error, unexpected ']' in /home/eomanico/public_html/ecampus/center/centrereq.php on line 21
+[04-May-2011 07:36:19] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/stdreqview.php on line 141
+[04-May-2011 07:36:29] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/stdreqview.php on line 141
+[05-May-2011 06:40:00] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 2
+[05-May-2011 06:40:00] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 2
+[05-May-2011 06:40:04] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 2
+[05-May-2011 13:02:09] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'eomanico'@'localhost' (using password: NO) in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 75
+[05-May-2011 13:02:09] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 75
+[05-May-2011 13:02:09] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 79
+[05-May-2011 13:11:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/eomanico/public_html/ecampus/center/suggest.php on line 102
+[05-May-2011 13:11:13] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/eomanico/public_html/ecampus/center/suggest.php on line 102
+[05-May-2011 13:58:28] PHP Parse error:  syntax error, unexpected '}' in /home/eomanico/public_html/ecampus/center/suggest.php on line 185
+[06-May-2011 02:09:49] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'eomanico'@'localhost' (using password: NO) in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 256
+[06-May-2011 02:09:49] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 256
+[06-May-2011 02:09:49] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 260
+[06-May-2011 02:09:57] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'eomanico'@'localhost' (using password: NO) in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 256
+[06-May-2011 02:09:57] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 256
+[06-May-2011 02:09:57] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/eomanico/public_html/ecampus/center/centersuggest.php on line 260
+[06-May-2011 03:12:56] PHP Parse error:  syntax error, unexpected T_ELSE in /home/eomanico/public_html/ecampus/center/allcenters.php on line 157
+[06-May-2011 05:53:19] PHP Parse error:  syntax error, unexpected T_STRING in /home/eomanico/public_html/ecampus/center/proctordet.php on line 80
+[06-May-2011 05:53:20] PHP Parse error:  syntax error, unexpected T_STRING in /home/eomanico/public_html/ecampus/center/proctordet.php on line 80
+[06-May-2011 07:34:11] PHP Parse error:  syntax error, unexpected T_STRING in /home/eomanico/public_html/ecampus/center/allcenters.php on line 116
+[06-May-2011 19:15:27] PHP Parse error:  syntax error, unexpected '}' in /home/eomanico/public_html/ecampus/center/statusrev.php on line 95
+[06-May-2011 19:15:32] PHP Parse error:  syntax error, unexpected '}' in /home/eomanico/public_html/ecampus/center/statusrev.php on line 95
+[06-May-2011 19:15:35] PHP Parse error:  syntax error, unexpected '}' in /home/eomanico/public_html/ecampus/center/statusrev.php on line 95
+[06-May-2011 19:28:17] PHP Parse error:  syntax error, unexpected T_IF in /home/eomanico/public_html/ecampus/center/statusrev.php on line 90
+[07-May-2011 07:07:18] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centerlist.php on line 154
+[07-May-2011 07:07:28] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centerlist.php on line 154
+[07-May-2011 07:10:08] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centerlist.php on line 154
+[07-May-2011 07:10:16] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centerlist.php on line 154
+[07-May-2011 07:10:22] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centerlist.php on line 154
+[07-May-2011 07:10:29] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centerlist.php on line 154
+[07-May-2011 07:10:34] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/centerlist.php on line 154
+[07-May-2011 07:14:51] PHP Parse error:  syntax error, unexpected T_ELSE in /home/eomanico/public_html/ecampus/center/centerlist.php on line 154
+[07-May-2011 07:14:54] PHP Parse error:  syntax error, unexpected T_ELSE in /home/eomanico/public_html/ecampus/center/centerlist.php on line 154
+[07-May-2011 07:44:52] PHP Parse error:  syntax error, unexpected T_ELSE in /home/eomanico/public_html/ecampus/center/centerlist.php on line 157
+[07-May-2011 07:44:55] PHP Parse error:  syntax error, unexpected T_ELSE in /home/eomanico/public_html/ecampus/center/centerlist.php on line 157
+[07-May-2011 11:55:30] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/adminaddproctor.php on line 255
+[07-May-2011 11:55:32] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/adminaddproctor.php on line 255
+[07-May-2011 11:56:18] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/eomanico/public_html/ecampus/center/adminaddproctor.php on line 255
+[07-May-2011 11:56:21] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/eomanico/public_html/ecampus/center/adminaddproctor.php on line 255
+[07-May-2011 13:38:17] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/eomanico/public_html/ecampus/center/statusrev.php on line 110
+[07-May-2011 13:38:20] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/eomanico/public_html/ecampus/center/statusrev.php on line 110
+[07-May-2011 13:38:26] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/eomanico/public_html/ecampus/center/statusrev.php on line 110
+[07-May-2011 14:03:05] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/eomanico/public_html/ecampus/center/confirmcenter.php on line 74
+[09-May-2011 13:56:02] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/examcenternotice.php on line 70
+[09-May-2011 13:56:03] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/examcenternotice.php on line 70
+[09-May-2011 13:57:35] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/examcenternotice.php on line 70
+[09-May-2011 13:57:38] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/examcenternotice.php on line 70
+[09-May-2011 15:10:01] PHP Parse error:  syntax error, unexpected '<' in /home/eomanico/public_html/ecampus/center/examcenternotice.php on line 95
