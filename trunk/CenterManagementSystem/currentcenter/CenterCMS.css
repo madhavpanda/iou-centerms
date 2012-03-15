@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu
+{
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: normal;
+	background-color:#003372;
+        color:#FFF
+}
+a.menu:link {
+        color:#FFF;
+	text-decoration: none;
+}
+a.menu:visited {
+        color:#FFF;
+	text-decoration: none;
+}
+a.menu:hover {
+        color:#FFF;
+	text-decoration: underline;
+}
+a.menu:active {
+        color:#FFF;
+	text-decoration: none;
+}
+.data
+{
+	background-color:#006699;
+        color:#FFF
+
+}
+input.text {
+ border:2px solid #eee;border-left: 2px solid #999;border-top: 2px solid #999;
+}
+textarea {
+ border:2px solid #eee;border-left: 2px solid #999;border-top: 2px solid #999;
+}
