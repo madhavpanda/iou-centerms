@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Trebuchet MS',verdana;
+}
+
+#header, #footer {
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #286AFF;
+}
+
+#header {
+	font-size: 36px;
+	padding: 20px 0 20px 0;
+}
+
+#footer {
+	font-size: 18px;
+	padding: 10px 0 10px 0;
+}
+
+.menu
+{
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: normal;
+	background-color:#003372;
+        color:#FFF
+}
+a.menu:link {
+        color:#FFF;
+	text-decoration: none;
+}
+a.menu:visited {
+        color:#FFF;
+	text-decoration: none;
+}
+a.menu:hover {
+        color:#FFF;
+	text-decoration: underline;
+}
+a.menu:active {
+        color:#FFF;
+	text-decoration: none;
+}
+.data
+{
+	background-color:#006699;
+        color:#FFF
+
+}
+input.text {
+ border:2px solid #eee;border-left: 2px solid #999;border-top: 2px solid #999;
+}
+textarea {
+ border:2px solid #eee;border-left: 2px solid #999;border-top: 2px solid #999;
+}
+
+h3 {
+	margin: 10px;
+	padding: 10px;
+}
+
+#countryddl {
+	margin: 0 10px 0 0;
+	width: 200px; 
+}
+
+#button {
+	font-size: 15px;
+	height : 30px;
+}
+
+#centerlist {
+	float: left;
+	width: 50%;
+}
+
+#googlemap{
+	float: right;
+	width: 50%;
+
+#centertable {
+	width : 90%;
+}
+
+#wrap {
+	min-height: 100%;
+}
