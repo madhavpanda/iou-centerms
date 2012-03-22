@@ -55,8 +55,8 @@ $mysql_connect_id = mysql_start( $mysql_server, $center_db, $mysql_username, $my
 	</div>
 	<div id="wrap">
 	<div id="menu"> <!-- start menu -->
-		<h3><?php
-				echo "Please Choose your country ".'<br />';
+		<div><h3><?php
+				echo "Please Choose your country ".'</h3><br />';
 		   		//echo $mysql_connect_id;
    
 				echo '<form id="form1" method="POST" action="centerlist2.php">';
@@ -82,8 +82,7 @@ $mysql_connect_id = mysql_start( $mysql_server, $center_db, $mysql_username, $my
 
 				echo '</form>';
  			?>
- 		</h3>
- 		
+ 		</div>
  		<div id="centerlist" >
 			<table id="centertable" class="table table-bordered table-stripped">
  				<tr>
