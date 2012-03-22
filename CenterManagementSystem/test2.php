@@ -175,8 +175,7 @@ $mysql_connect_id = mysql_start( $mysql_server, $center_db, $mysql_username, $my
 				If You have found no available centers or no suitable centers please suggest a likely center you would like to take your exams <a href="centersuggest.php"> here</a>
 			</div>
 		</div>
-			
-	</div> <!-- end menu -->
+	
 	<div id="googlemap">
 		<h2> IOU Exam Centers in <?php echo $country;?> </h2>
 		<?php
@@ -275,7 +274,9 @@ $mysql_connect_id = mysql_start( $mysql_server, $center_db, $mysql_username, $my
 				<?php
 				}
 				?>
-	</div>
+	</div>		
+	</div> <!-- end menu -->
+	
 	<div class="clearfooter"></div>
 	</div>
 	<div id="footer">
