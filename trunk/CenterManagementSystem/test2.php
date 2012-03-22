@@ -276,6 +276,7 @@ $mysql_connect_id = mysql_start( $mysql_server, $center_db, $mysql_username, $my
 				}
 				?>
 	</div>
+	<div class="clearfooter"></div>
 	</div>
 	<div id="footer">
 		Islamic Online University Exam Centers Registration Portal
