@@ -57,7 +57,7 @@ a.menu:active {
 .data
 {
 	background-color:#006699;
-        color:#FFF
+        color:#FFF;
 
 }
 input.text {
@@ -90,7 +90,7 @@ h3 {
 #googlemap{
 	float: right;
 	width: 50%;
-
+}
 #centertable {
 	width : 90%;
 }
@@ -98,8 +98,9 @@ h3 {
 #wrap {
 	min-height: 100%;
 	margin-bottom: -30px;
-	position: relative;;
+	position: relative;
 }
+
 .clearfooter {
 	height: 30px;
 	clear: both;
